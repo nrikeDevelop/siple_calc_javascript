@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*{
+	font-family: 'Raleway', sans-serif;	
+}
+
+body{
+	background: linear-gradient(to right bottom ,#EF4846, #D2403E);
+}
+
+header{
+	width: 100%;
+	height: 10%;
+}
+
+
+.content{
+	margin:0 auto;
+	width: 300px;
+	height: 360px;
+	box-shadow: 5px 10px 20px #212121;
+	background-color: yellow;
+}
+
+.content .expression{
+	width: 100%;
+	background-color: #F2F4F4;
+	text-align: right;	
+}
+
+.content .expression div#expression{
+	padding: 20px;
+}
+
+
+.button-number{
+	width: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #2B2A2A;
+	color:white;
+	text-align: center;
+	font-size: 17px;
+	float: left;
+	transition: background-color 0.3s,color 0.4s;
+}
+
+
+.button-number:hover{
+	background-color: #00796B;
+	color: white;
+}
+
+.button-calculate{
+	width: 75px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align: center;
+	float: left;
+	background-color: #00796B;
+	font-size: 19px;
+	color: white;
+	transition: background-color 0.3s,color 0.4s;
+}
+
+.button-calculate:hover{
+	background-color: #2B2A2A;
+	color: white;
+}
+
+.button-send{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #2B2A2A;
+	color:white;
+	text-align: center;
+	font-size: 17px;
+	float: left;
+	transition: background-color 0.3s,color 0.4s;;
+}
+
+.button-send:hover{
+	background-color: #00796B;
+	color: white;
+}
